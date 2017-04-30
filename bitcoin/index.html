@@ -1,110 +1,73 @@
 <!DOCTYPE html>
-<html lang="en-FR">
-     <head> 
-          <title> Bienvenue, je m'appelle Ravi Damia. </title>
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-          <link rel="stylesheet" href="https://damiaravi.github.io/css/style.css">
-          <script src="https://damiaravi.github.io/js/script.js"></script>
-          
-     </head>
-     
-     <body> 
-            <body style="background-color:powderblue;text-align:center;">
-      Bonjour bienvenuue sur le site en binôme de Nour Bentchikou et Damia Ravi 
-      <h1 style="color:purple;"> Ceci est une entrée en matière </h1>
-      <h2 style="color:blue;"> Ceci est un sous titre moins important que le précédent</h2>
-      
-      <p>Chers visiteurs entrer votre nom prénom pour une collecte de données</p>
-      <form>
-      Nom:<br>
-      <input type="text" name="firstname">
-      <br>
-      Prénom:<br>
-      <input type="text" name="lastname">
-      </form>
-      <form>
-      <br>
-      <input type="radio" name="gender" value="male" checked> Male
-      <input type="radio" name="gender" value="female"> Female
-      <input type="radio" name="gender" value="other"> Other  
-      </form> 
-      <p>Vidéo youtube d'un tutoriel pour démarrer avec html : </p>
-      <iframe width="854" height="480" src="https://www.youtube.com/embed/bWPMSSsVdPk" frameborder="0" allowfullscreen></iframe>
-
-      <h3 style="font-size:36px;background-color:purple;"> Ceci est un sous titre plus gros </h3>
-      <h4> <mark> Ceci est un sous titre idem surligné </mark> </h4>
-      <p>Commençons par une citation de WWF: 
-	      <q>Build a future where people live in harmony with nature.</q>
-      </p>
-      <p> Ceci est un paragraphe Ceci est un paragraphe Ceci est un paragraphe Ceci est un paragraphe Ceci est un paragraphe Ceci est un paragraphe Ceci est un paragraphe. </p>
-      <p>Texte ci dessus écrit à l'envers</p>
-      <bdo dir="rtl">Ceci est écrit à l'envers</bdo>
-      <p>Le 
-	      <abbr title="Principe fondamentale de la dynamique">PFD</abbr> 
-	      est la 2ème loi de Newton</p>
-      <hr>      
-      <p>Paragraphe 2 pour un test Paragraphe 2 pour un test   Paragraphe 2 pour un test   Paragraphe 2 pour un test   Paragraphe 2 pour un test   Paragraphe 2 pour un test   </p>
-      <hr>
-	 <a href="https://www.w3schools.com">C'est un lien vers le tuto de w3 school</a> 
-<pre>
-    Ce tag permet de mettre deux lignes et deux espaces au texte
-
-    Ce tag permet de mettre deux lignes et deux espaces au texte
-
-    Ce tag permet de mettre deux lignes et deux espaces au texte
-   
-    Ce tag permet de mettre deux lignes et deux espaces au texte
-</pre>
-
-<table>
-  <tr>
-    <th>Prénom</th>
-    <th>School</th>  
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Marie</td>
-    <td>HEC</td>
-    <td>FR</td>
-  </tr>
-  <tr>
-    <td>Roland</td>
-    <td>Harvard</td>
-    <td>USA</td>
-  </tr>
-  <tr>
-    <td>Sally</td>
-    <td>Business school of london</td>
-    <td>UK</td>
-  </tr>
-</table>
-
-<address>
-<br>
-Ce site est fait par mademoiselle Nour Bentchikou et Damia Ravi <br> 
-habitant a paris:<br>
-en Île-de-France<br>
-FRANCE
-<br>
-</address>
+<html>
+	<head>
+		<meta charest="UTF-8"/>
+		<title> Explorateur Bitcoin </title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>		
+	</head>
+	<body>
+		<h2> Bitcoin info: </h2>
+		<div class="row">
+			<div class="col-lg-12 col-xs-6">
+				<pre>
+					<code id="demo" class="json kljs"></code>
+				</pre>
+			</div>
+		</div>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/bitcoin_info.js"></script>
+	</body>
+	
+	<body>
+		<h2> Bitcoin blockchain info: </h2>
+		<div class="row">
+			<div class="col-lg-12 col-xs-6">
+				<pre>
+					<code id="demo1" class="json kljs"></code>
+				</pre>
+			</div>
+		</div>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/bitcoin_blockchain_info.js"></script>
+	</body>
+	
+	<body>
+		<h2> Bitcoin mining info: </h2>
+		<div class="row">
+			<div class="col-lg-12 col-xs-6">
+				<pre>
+					<code id="demo2" class="json kljs"></code>
+				</pre>
+			</div>
+		</div>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/bitcoin__mining_info.js"></script>
+	</body>
+	
+	<body>
+		<h2> Bitcoin peer info: </h2>
+		<div class="row">
+			<div class="col-lg-12 col-xs-6">
+				<pre>
+					<code id="demo3" class="json kljs"></code>
+				</pre>
+			</div>
+		</div>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/bitcoin_peer_info.js"></script>
+	</body>
+</html>
 
 
  
 	  
-	     
-	  <div class="row">
-	  <div class="col-lg-12 col-xs-6">
-    	  <pre>
-        	    <code id="demo" class="json kljs"></code>
-    	  </pre>
-	  </div>
-          </div>
 
-          
 
-	  <script type="text/javascript">homePageLoading();</script>
-	</body>
+
 
 
 
